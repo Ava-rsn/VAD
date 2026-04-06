@@ -1,0 +1,6 @@
+video=Assault042_x264
+frame=000030
+label=0.0
+teacher_score=0.10907147824764252
+ts_score=0.18642982840538025
+combined_score=0.29550130665302277

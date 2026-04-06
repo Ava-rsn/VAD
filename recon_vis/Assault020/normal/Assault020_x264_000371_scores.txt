@@ -1,0 +1,6 @@
+video=Assault020_x264
+frame=000371
+label=0.0
+teacher_score=0.12349112331867218
+ts_score=0.18238399922847748
+combined_score=0.30587512254714966

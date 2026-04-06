@@ -1,0 +1,6 @@
+Score column: score_teacher_raw
+Rows: 40791
+Videos: 107
+Micro AUC from CSV: 0.480660
+Mean per-video AUC: 0.719929
+Median per-video AUC: 0.727462

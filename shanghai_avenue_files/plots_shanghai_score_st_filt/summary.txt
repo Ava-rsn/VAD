@@ -1,0 +1,6 @@
+Score column: score_st_filt
+Rows: 40791
+Videos: 107
+Micro AUC from CSV: 0.769974
+Mean per-video AUC: 0.831267
+Median per-video AUC: 0.888661

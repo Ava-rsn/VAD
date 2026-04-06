@@ -1,0 +1,39 @@
+FAST POST-PROCESSING SEARCH SUMMARY
+==================================
+
+Best overall:
+score_type                st
+range                   1000
+mu                        45
+mu_ratio               0.045
+normalize_scores        True
+micro_auc           0.682639
+
+Best per score type:
+score_type  range   mu  mu_ratio  normalize_scores  micro_auc
+  combined    500  200     0.400              True   0.562371
+        st   1000   45     0.045              True   0.682639
+   teacher    500  200     0.400              True   0.555101
+
+Top 20 overall:
+score_type  range  mu  mu_ratio  normalize_scores  micro_auc
+        st   1000  45  0.045000              True   0.682639
+        st   1500  45  0.030000              True   0.682639
+        st   1200  45  0.037500              True   0.682639
+        st    900  45  0.050000              True   0.682639
+        st    600  45  0.075000              True   0.682639
+        st    700  45  0.064286              True   0.682639
+        st    800  45  0.056250              True   0.682639
+        st    500  45  0.090000              True   0.682639
+        st    450  45  0.100000              True   0.682639
+        st    400  45  0.112500              True   0.682639
+        st    350  45  0.128571              True   0.682635
+        st    300  45  0.150000              True   0.682604
+        st    450  38  0.084444              True   0.681373
+        st    500  38  0.076000              True   0.681373
+        st    600  38  0.063333              True   0.681373
+        st    800  38  0.047500              True   0.681373
+        st   1000  38  0.038000              True   0.681373
+        st    900  38  0.042222              True   0.681373
+        st    700  38  0.054286              True   0.681373
+        st   1500  38  0.025333              True   0.681373

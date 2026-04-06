@@ -1,0 +1,6 @@
+video=Arson011_x264
+frame=000070
+label=0.0
+teacher_score=0.16496960818767548
+ts_score=0.20591230690479279
+combined_score=0.37088191509246826

@@ -1,0 +1,6 @@
+video=Explosion028_x264
+frame=000150
+label=0.0
+teacher_score=0.13352559506893158
+ts_score=0.19804970920085907
+combined_score=0.33157530426979065

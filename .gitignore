@@ -165,13 +165,13 @@ cython_debug/
 *.pth
 *.pt
 *.ckpt
-
+*.csv
 # Generated outputs
 fusion_results/
 
 
 # Large score/result CSVs
-.csv
+
 # Other outputs
 logs/
 results/

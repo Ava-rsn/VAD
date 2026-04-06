@@ -1,0 +1,39 @@
+FAST POST-PROCESSING SEARCH SUMMARY
+==================================
+
+Best overall:
+score_type           teacher
+range                    300
+mu                       300
+mu_ratio                   1
+normalize_scores       False
+micro_auc           0.677059
+
+Best per score type:
+score_type  range   mu  mu_ratio  normalize_scores  micro_auc
+  combined    300  200  0.666667             False   0.636840
+        st   1200  250  0.208333              True   0.554888
+   teacher    300  300  1.000000             False   0.677059
+
+Top 20 overall:
+score_type  range   mu  mu_ratio  normalize_scores  micro_auc
+   teacher    300  300  1.000000             False   0.677059
+   teacher    300  250  0.833333             False   0.677042
+   teacher    300  200  0.666667             False   0.677002
+   teacher    600  100  0.166667             False   0.676959
+   teacher    700  100  0.142857             False   0.676955
+   teacher    800  100  0.125000             False   0.676954
+   teacher    900  100  0.111111             False   0.676954
+   teacher   1000  100  0.100000             False   0.676954
+   teacher   1200  100  0.083333             False   0.676954
+   teacher    500  100  0.200000             False   0.676952
+   teacher    300  150  0.500000             False   0.676895
+   teacher    400  100  0.250000             False   0.676889
+   teacher    400  150  0.375000             False   0.676883
+   teacher    300  100  0.333333             False   0.676578
+   teacher   1000   75  0.075000             False   0.676339
+   teacher   1200   75  0.062500             False   0.676339
+   teacher    900   75  0.083333             False   0.676339
+   teacher    800   75  0.093750             False   0.676339
+   teacher    700   75  0.107143             False   0.676339
+   teacher    600   75  0.125000             False   0.676339

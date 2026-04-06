@@ -1,0 +1,6 @@
+Score column: score_teacher_filt
+Rows: 40791
+Videos: 107
+Micro AUC from CSV: 0.773751
+Mean per-video AUC: 0.835754
+Median per-video AUC: 0.892767

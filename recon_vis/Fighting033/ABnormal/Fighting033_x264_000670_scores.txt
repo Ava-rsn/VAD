@@ -1,0 +1,6 @@
+video=Fighting033_x264
+frame=000670
+label=1.0
+teacher_score=0.16471117734909058
+ts_score=0.1641303300857544
+combined_score=0.32884150743484497

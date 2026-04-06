@@ -1,0 +1,45 @@
+l_bias_plots
+Loaded 107 videos, 40791 frames
+Filtering=ON | range=1000 | mu=350 | normalize=True
+GT segment mode=all | Per-video location summary=weighted_mean
+
+========================================================================
+TEMPORAL BIAS SUMMARY: shanghai
+========================================================================
+
+Overall AUC
+Raw   - Micro: 0.4807 | Macro(skip): 0.7199
+Post  - Micro: 0.7738 | Macro(skip): 0.8358
+Null  - Micro: 0.7707 | Macro(skip): 0.8324
+
+GT anomaly location
+Anomaly segments analysed: 193
+Midpoint mean: 0.552 | std: 0.217
+Duration mean: 0.243 | std: 0.214
+
+Spearman correlation: anomaly midpoint vs per-video AUC
+Raw  : rho = 0.0739, p = 0.4513
+Post : rho = -0.2695, p = 0.005215
+Null : rho = -0.2868, p = 0.00288
+
+Middle vs edge anomaly comparison
+Raw  : n_mid=60, n_edge=4, mean_mid=0.7069, mean_edge=0.6036, gap=0.1033
+Post : n_mid=60, n_edge=4, mean_mid=0.9194, mean_edge=0.2718, gap=0.6476
+Null : n_mid=60, n_edge=4, mean_mid=0.9199, mean_edge=0.2624, gap=0.6575
+
+Post vs null per-video AUC relation
+Pearson correlation: 0.9978
+
+Post-processed vs null
+Videos analysed: 106
+Post > Null: 60 / 106
+Null > Post: 46 / 106
+Mean(Post - Null): 0.0033
+Median(Post - Null): 0.0016
+Post beats Null by >0.05: 0 / 106
+
+Post-processed vs raw
+Post > Raw: 74 / 106
+Raw > Post: 32 / 106
+Mean(Post - Raw): 0.1158
+Median(Post - Raw): 0.0970
